@@ -1,0 +1,247 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2,
+        #00c6ff
+    );
+}
+
+.container{
+    width:100%;
+    max-width:450px;
+    padding:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.95);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#333;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,select{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#f1f1f1;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(
+        45deg,
+        #00c853,
+        #00e676
+    );
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.03);
+}
+
+.result{
+    margin-top:25px;
+    text-align:center;
+}
+
+#bmiValue{
+    font-size:40px;
+    color:#00c853;
+}
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(
+        135deg,
+        #0f2027,
+        #203a43,
+        #2c5364
+    );
+    min-height:100vh;
+}
+
+.result-container{
+    max-width:900px;
+    margin:40px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.95);
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.3);
+}
+
+.bmi-score{
+    text-align:center;
+    font-size:60px;
+    color:#00c853;
+    font-weight:bold;
+}
+
+.status{
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.section{
+    margin-top:20px;
+    padding:20px;
+    border-radius:15px;
+    background:#f8f9fa;
+}
+
+.section h2{
+    color:#333;
+}
+.section{
+    background:#ffffff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.section h3{
+    color:#1565c0;
+}
+
+table{
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+table th,
+table td{
+    padding:10px;
+    text-align:center;
+}
+.meter {
+    width: 300px;
+    height: 150px;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.semi-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #4da6ff 0deg 60deg,
+        #2ecc71 60deg 120deg,
+        #f39c12 120deg 180deg,
+        #e74c3c 180deg 180deg
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+#needle {
+    width: 4px;
+    height: 120px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-origin: bottom;
+    transform: rotate(-90deg);
+    transition: transform 1s ease-in-out;
+}
+
+.center-dot {
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.meter-container{
+    text-align:center;
+    margin-top:30px;
+}
+
+.meter{
+    width:300px;
+    height:150px;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+}
+
+.arc{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background: conic-gradient(
+        #4da6ff 0deg 60deg,
+        #2ecc71 60deg 120deg,
+        #f39c12 120deg 180deg,
+        #e74c3c 180deg 180deg
+    );
+    transform: rotate(180deg);
+}
+
+#needle{
+    width:4px;
+    height:120px;
+    background:black;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform-origin: bottom;
+    transform: rotate(-90deg);
+    transition: transform 1s ease-in-out;
+}
+
+.center-dot{
+    width:15px;
+    height:15px;
+    background:black;
+    border-radius:50%;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+

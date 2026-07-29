@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BMI Result</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="result-container">
+
+    <h1>Your BMI Result</h1>
+
+    <h2 id="bmiValue"></h2>
+
+    <h3 id="status"></h3>
+
+    <div class="section">
+        <h2>Possible Causes</h2>
+        <div id="causes"></div>
+    </div>
+
+    <div class="section">
+        <h2>Recommended Food Habits</h2>
+        <div id="foods"></div>
+    </div>
+
+    <div class="section">
+        <h2>Foods To Avoid</h2>
+        <div id="avoid"></div>
+    </div>
+
+    <div class="section">
+        <h2>Weight Status Chart</h2>
+        <canvas id="weightChart" width="400" height="200"></canvas>
+    </div>
+
+</div>
+
+
+<div id="causes"></div>
+<div id="foods"></div>
+<div id="avoid"></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Result</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        .box {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        canvas {
+            max-width: 400px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+<script src="result.js"></script>
+<canvas id="weightChart"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
